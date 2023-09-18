@@ -1,0 +1,56 @@
+# Ignore Node.js dependencies and build artifacts in backend-node
+TicTacToe/node-back/node_modules/
+TicTacToe/node-back/build/
+
+# Ignore Flutter build artifacts in front-flutter
+TicTacToe/flutter-front/build/
+TicTacToe/flutter-front/.dart_tool/
+
+# Ignore .env file for Node.js
+TicTacToe/backend-node/.env
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# Web related
+TicTacToe/flutter-front/lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+TicTacToe/flutter-front/android/app/debug
+TicTacToe/flutter-front/android/app/profile
+TicTacToe/flutter-front/android/app/release
