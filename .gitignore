@@ -1,13 +1,13 @@
 # Ignore Node.js dependencies and build artifacts in backend-node
-TicTacToe/node-back/node_modules/
-TicTacToe/node-back/build/
+TicTacToe/back/node_modules/
+TicTacToe/back/build/
 
 # Ignore Flutter build artifacts in front-flutter
-TicTacToe/flutter-front/build/
-TicTacToe/flutter-front/.dart_tool/
+TicTacToe/front/build/
+TicTacToe/front/.dart_tool/
 
 # Ignore .env file for Node.js
-TicTacToe/backend-node/.env
+TicTacToe/node/.env
 
 # Miscellaneous
 *.class
@@ -42,7 +42,7 @@ TicTacToe/backend-node/.env
 .pub/
 
 # Web related
-TicTacToe/flutter-front/lib/generated_plugin_registrant.dart
+TicTacToe/front/lib/generated_plugin_registrant.dart
 
 # Symbolication related
 app.*.symbols
@@ -51,6 +51,6 @@ app.*.symbols
 app.*.map.json
 
 # Android Studio will place build artifacts here
-TicTacToe/flutter-front/android/app/debug
-TicTacToe/flutter-front/android/app/profile
-TicTacToe/flutter-front/android/app/release
+TicTacToe/front/android/app/debug
+TicTacToe/front/android/app/profile
+TicTacToe/front/android/app/release
